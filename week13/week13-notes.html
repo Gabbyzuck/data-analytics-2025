@@ -1,0 +1,43 @@
+# <button onclick="showAlert()">Click Me</button>
+
+# <script>
+#     function showAlert() {
+#         alert("Button clicked!");
+#     }
+# </script> 
+#mixing html and javascript together
+
+#if using id you can use as many functions as you want
+# <button id="myButton">Click Me</button>
+
+# <script>
+#     document.getElementById("myButton").addEventListener("click", function() {
+#         alert("Button clicked!");
+#     });
+# </script>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Interaction Example</title>
+</head>
+<body>
+    <button id="clickButton">Click Me</button>
+    <p id="displayText">Button not clicked yet.</p>
+
+    <script>
+        // Accessing the button and paragraph elements
+        const button = document.getElementById("clickButton");
+        const displayText = document.getElementById("displayText");
+
+        // Function to change text
+        function changeText() {
+            // .innerHTML  : used to get or set the HTML content inside an element.
+            displayText.innerHTML = "Button clicked!";
+        }
+
+        // Event listener for button click
+        button.addEventListener("click", changeText);
+    </script>
+</body>
+</html>
