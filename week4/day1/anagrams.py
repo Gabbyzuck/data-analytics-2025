@@ -1,49 +1,53 @@
+# anagrams.py
+
 from anagram_checker import AnagramChecker
 
 def main():
-    checker = AnagramChecker() #creates instance
+    checker = AnagramChecker()  # create instance
     
     while True:
         print("\n--- Anagram Checker Menu ---")
         print("1. Choose a word")
         print("2. Exit")
         
-        choice = input("Enter your choice (1 or 2): ").strip() #removes all whitespaces
+        choice = input("Enter your choice (1 or 2): ").strip()
     
         if choice == "1":
             word = input("Enter a word to check if it's valid: ").strip()
             
-            word_count = len(word.split()) #split splits the whitespaces
-            if word_count > 1:
-                print(f"Invalid input. You can only enter one word, not {word_count} words")
+            # Ensure only one word
+            if len(word.split()) > 1:
+                print("Invalid input. You can only enter ONE word.")
                 continue
 
-            if not word.isalpha(): #isalpha makes sure all characters are letters
-                print("You can only enter one word containing letters")
+            # Ensure it's alphabetic
+            if not word.isalpha():
+                print("Error: Your word must contain only letters.")
                 continue
                 
-            if checker.is_valid_word(word): #pulls from is_valid_word method in anagram_checker
+            # Check if valid
+            if checker.is_valid_word(word):
                 print("This is a valid word.")
 
-                anagrams = checker.get_anagrams(word) #pulls anagrams from method in anagram_checker from list
+                anagrams = checker.get_anagrams(word)
                 if anagrams:
                     print(f"Anagrams of '{word}': {', '.join(anagrams)}")
-                    break #If all true, put break after last true part
-
                 else:
                     print(f"No anagrams found for '{word}'.")
+            
             else:
-                print(f"'{word}' is not a valid word.")
+                print(f"'{word}' is not a valid English word.")
         
         elif choice == "2":
             print("Exiting the program. Goodbye!")
             break
+
         else:
-            print("Not a valid answer. Please check the menu")
-            break
-    
+            print("Invalid menu choice. Please enter 1 or 2.")
+            continue
 
 
 if __name__ == "__main__":
     main()
+
 
