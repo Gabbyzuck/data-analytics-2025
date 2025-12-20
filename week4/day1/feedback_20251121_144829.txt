@@ -1,0 +1,20 @@
+URL: URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week4/day1/anagram_checker.py
+suggestions for improvement:
+- Consider adding docstrings to the methods to improve readability and understanding of their purpose.
+- The exception handling could be more specific to handle different types of potential errors (e.g., IOError, UnicodeDecodeError).
+- The list comprehension in `get_anagrams` is generally efficient, but for very large word lists, consider using a generator expression for slightly better memory usage if needed.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week4/day1/anagrams.py
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week4/day1/sowpods.txt
+suggestions for improvement:
+- This is not code, it's a data file. It cannot be executed or meaningfully assessed in terms of correctness, readability, performance or security based on the instructions of the Chapter Content/Questions.
+- This is a dataset, not code, therefore it does not implement anything of the project's instructions. This file is supposed to be a list of words.  However, the dataset is compressed.
+- This part contains a list of words, not code. Therefore, it can't be judged on readability, performance, or security.
+- The correctness is 0% because it provides data, not an implementation of the anagram checker as outlined in the instructions.
+Correctness: 0.0%
+-----
