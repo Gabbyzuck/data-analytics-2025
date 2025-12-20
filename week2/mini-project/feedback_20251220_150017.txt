@@ -1,0 +1,11 @@
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week2/mini-project/mini-project.py
+suggestions for improvement:
+- Consider adding a docstring to each function to explain its purpose, arguments, and return value.
+- The board display could be slightly improved for better visual clarity by adding vertical lines between the rows as well.
+- The game can be extended to allow the user to play as 'O' or 'X' instead of hardcoding it in the play() function.
+Brief justification:
+- correctness: The code perfectly implements the Tic Tac Toe game as described in the chapter content. It covers all the required steps: representing the board, displaying it, getting player input, checking for a win, checking for a tie, and managing the main game loop.
+- readability: The code is well-structured and easy to follow. The function names are descriptive, and the logic is clear. Minor improvements could be made by adding docstrings.
+- performance: The code's performance is good. The game logic is simple and efficient, without any unnecessary computations or loops.
+- security: The code has no obvious security vulnerabilities. The player input is validated to ensure it's within the valid range.
+
