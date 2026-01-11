@@ -1,0 +1,10 @@
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day5/day-5-daily-challenge.py
+suggestions for improvement:
+- Consider adding more comprehensive error handling, especially for file operations.
+- The stop word list could be expanded for better text cleaning.
+Brief justification:
+- correctness: The code accurately implements all the requested functionalities: creating the `Text` and `TextModification` classes, implementing the specified methods (`word_frequency`, `most_common_word`, `unique_words`, `from_file`, `remove_punctuation`, `remove_stop_words`, `remove_special_characters`), and demonstrating their use in the main block. The code directly addresses all the requirements outlined in the chapter content.
+- readability: The code is well-structured and easy to understand, with clear comments explaining each step. Variable names are descriptive, and the code is organized into logical sections.
+- performance: The performance is generally good for the given tasks. The use of dictionaries and sets for word frequency and unique words is efficient.  However, for very large files, more optimized approaches might be considered, but for the scope of this exercise, the performance is adequate.
+- security: The code doesn't have any major security vulnerabilities. File handling includes basic error handling to prevent crashes.  However, it's always good to sanitize user inputs when dealing with file paths or text content in a production environment.
+
