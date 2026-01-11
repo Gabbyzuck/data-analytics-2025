@@ -1,0 +1,41 @@
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day3/day-2-daily-challenge.py
+suggestions for improvement:
+- The code implements a pagination class, which is completely unrelated to the chapter's content on inheritance, class methods, polymorphism, exceptions, and the `super()` function. The code does not address any of the exercises provided.
+Correctness: 0.0%
+-----
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day3/day-2-exercise-xp.py
+suggestions for improvement:
+- In Exercise 3, the line `from dog import Dog` assumes that the Dog class from Exercise 2 is in a separate file named 'dog.py'. This is a reasonable assumption, but it's important to state this assumption explicitly, and to ensure that such a file exists in the same directory.
+- In Exercise 3, consider making the `play` method more robust by checking if the passed arguments are actually `Dog` instances to avoid potential errors.
+- In Exercise 3, instead of directly printing the random trick within the `do_a_trick` method, return the trick as a string. This enhances the method's flexibility, allowing the caller to handle the output as needed (e.g., logging, displaying in a GUI, or further processing).
+- In Exercise 3, The line `dog_names = [self.name]` in the play method could be initialized directly from args to avoid unnecessary logic.
+Correctness: 95%
+-----
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day3/day-3-daily-challenge.py
+suggestions for improvement:
+- The code demonstrates some understanding of classes and methods, but it does not address any of the specific exercises outlined in the chapter content.  It creates a `Circle` class and implements various methods for it, including comparison operators and string representation, and it also uses the Turtle library to draw circles.  However, this is unrelated to the specified tasks involving inheritance, polymorphism, exceptions, or the `super()` function. The code also includes calls to a turtle library which has nothing to do with the exercises.
+- Remove Turtle Library usage - completely irrelevant and unrequested.
+- The code should focus on completing the exercises as described.
+Correctness: 0.0%
+-----
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day3/day-3-exercise-xp.py
+suggestions for improvement:
+- The provided code includes solutions for exercises that are not included in the current chapter. The chapter focuses on Inheritance, Class methods and attributes, Polymorphism, Exceptions, and the `super()` function, while the code covers Currency class and some basic use of faker and datetime modules.
+- The code should be revised to address the exercises provided in the original prompt, covering the topics of Inheritance, Class methods and attributes, Polymorphism, Exceptions, and the `super()` function.
+Correctness: 0%
+-----
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day3/exercise_one.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day3/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week3/day3/output.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
