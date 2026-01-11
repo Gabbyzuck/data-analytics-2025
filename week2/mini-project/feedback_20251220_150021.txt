@@ -1,0 +1,10 @@
+URL: https://github.com/Gabbyzuck/data-analytics-2025/blob/main/week2/mini-project/mini-project.py
+suggestions for improvement:
+- Consider adding comments to explain more complex logic within functions.
+- The code could be slightly improved by adding a function to validate player input before processing.
+Brief justification:
+- correctness: The code accurately implements the Tic Tac Toe game as described in the chapter content. It includes functions for displaying the board, handling player input, checking for a win, and managing the main game loop. All requirements are met.
+- readability: The code is well-structured and easy to follow. Function names are descriptive, and the overall logic is clear. The use of comments further enhances readability.
+- performance: The code's performance is efficient for the given task. The algorithms used for checking win conditions and ties are reasonable for a 3x3 board.
+- security: The code includes basic input validation to ensure that player input is within the allowed range, enhancing security by preventing potential errors or exploits.
+
