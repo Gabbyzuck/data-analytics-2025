@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Interaction Example</title>
+</head>
+<body>
+    <header>JavaScript Interaction Example</h1>
+    </header>
+    <button id="clickButton">Click Me</button>
+    <p id="displayText">Button not clicked yet.</p>
+
+    <script>
+        // Accessing the button and paragraph elements
+        const button = document.getElementById("clickButton");
+        const displayText = document.getElementById("displayText");
+
+        // Function to change text
+        function changeText() {
+            // .innerHTML  : used to get or set the HTML content inside an element.
+            displayText.innerHTML = "Button clicked!";
+        }
+
+        // Event listener for button click
+        button.addEventListener("click", changeText);
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>innerHTML Demo</title>
+</head>
+<body>
+    <h2>innerHTML Example</h2>
+    <!-- Original content -->
+    <div id="example">This is <strong>important</strong> text.</div> <!-- you need ID so ID in this case is "example" -->
+
+    <!-- Button to trigger the change -->
+    <button onclick="changeContent()">Change Content</button>
+    <script>
+        // Get the current HTML content and log it
+        var content = document.getElementById("example").innerHTML;
+        console.log("Original content:", content);
+        // Function to change the HTML content
+        function changeContent() {
+            document.getElementById("example").innerHTML = "New <em>content</em> here.";
+            console.log("Content changed!");
+        }
+    </script>
+</body>
+</html>
